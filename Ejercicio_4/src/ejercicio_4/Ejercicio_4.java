@@ -29,7 +29,7 @@ public class Ejercicio_4 {
         System.out.println(peliculas.toString().replace(",", ""));
         
         System.out.println("Filtro: Películas mayor a 1 hora");
-        sP.filtroDuracion(peliculas);
+        System.out.println(sP.filtroDuracion(peliculas));
         
         System.out.println("Ordenado: De Mayor a Menor Duración:");
         peliculas.sort(utilidadesPelicula.compararDuracionDESC);        
